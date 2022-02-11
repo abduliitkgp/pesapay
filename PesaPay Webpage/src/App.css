@@ -1,0 +1,93 @@
+
+#logo-name
+{
+  color: #3a393f;
+  font-style: normal;
+  font-weight:600;
+  font-size: 20px;
+  align-items: center;
+}
+
+#text
+  {
+    color: white;
+    font-size: 40px;
+    padding-bottom:10px;
+    font-weight:700;
+    
+  }
+#para
+{
+  font-size: 25px;
+  font-weight:300;
+  color: whitesmoke;
+
+}
+
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 0px;
+    width: 110%;
+  }
+  #header,
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 110%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+  #text
+  {
+    font-size: 40px;
+  }
+  #logo
+  {
+    padding-bottom: 5px;;
+  }
+  #header-logo
+  {
+    flex-direction: row;
+    padding:0px;
+  }
+  #logo-name
+  {
+    font-size:x-large;
+  }
+  #menu
+  {
+    padding:0px;;
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 900px) {
+#logo
+{
+  padding-bottom: 5px;;
+}
+#header-logo
+{
+  flex-direction: row;
+  padding:5px;
+}
+#logo-name
+{
+  font-size:large;
+  text-align:center;
+}
+#menu
+{
+  padding-left:0px;
+  padding-right:0px;
+  margin-left: 0px;
+}
+}
